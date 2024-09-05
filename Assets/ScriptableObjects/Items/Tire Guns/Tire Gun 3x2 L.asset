@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb8fb8050a6eac4ebdc6e298fdc0edc, type: 3}
+  m_Name: Tire Gun 3x2 L
+  m_EditorClassIdentifier: 
+  itemName: Tire Gun
+  itemDescription: Shoots tires aimed in a random direction.
+  UIRepresentation: {fileID: 6587890710239006255, guid: 5cd82cc88342d0f4db9d12ec53cb68d8,
+    type: 3}
+  tirePrefab: {fileID: 8490841309533595767, guid: 4f2754a6dd64f7f4384323382e23abfb,
+    type: 3}
+  shootIntervalInSeconds: 2
+  damage: 50
+  throwForce: 15
+  shootSoundData:
+    clip: {fileID: 8300000, guid: 1c70a865ec8b17d4fa26c76eb6f17c4c, type: 3}
+    mixerGroup: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    frequentSound: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    priority: 128
+    volume: 0.05
+    pitch: 1
+    minRandomPitch: -0.05
+    maxRandomPitch: 0.05
+    panStereo: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    minDistance: 1
+    maxDistance: 500
+    ignoreListenerVolume: 0
+    ignoreListenerPause: 0
+    rolloffMode: 0

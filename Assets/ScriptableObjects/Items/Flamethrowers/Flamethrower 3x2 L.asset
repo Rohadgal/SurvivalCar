@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c461215000d9414f8657e628dc859b9, type: 3}
+  m_Name: Flamethrower 3x2 L
+  m_EditorClassIdentifier: 
+  itemName: Flamethrower
+  itemDescription: Shoots fire while turning
+  UIRepresentation: {fileID: 6587890710239006255, guid: 5cd82cc88342d0f4db9d12ec53cb68d8,
+    type: 3}
+  flameThrowerPrefab: {fileID: 4811387584901548061, guid: 42ecb5ad694922a4184baa0fbcc7ec4c,
+    type: 3}
+  rotationAngle: 0.5

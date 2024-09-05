@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8800e68afd0d1a44793d35907f65c940, type: 3}
+  m_Name: Freeze Ray 2x2 S
+  m_EditorClassIdentifier: 
+  itemName: Freeze Ray
+  itemDescription: Freezes all enemies that get hit
+  UIRepresentation: {fileID: 6587890710239006255, guid: 0a4ef854ae9563c4d9732d99cfcb51b1,
+    type: 3}
+  beamPrefab: {fileID: 4543194850886100699, guid: f8e5af12f6bff1e46829921af39753df,
+    type: 3}
+  shootIntervalInSeconds: 2
+  rotationAngle: 30
